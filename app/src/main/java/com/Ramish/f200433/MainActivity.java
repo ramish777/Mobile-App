@@ -20,4 +20,10 @@ public class MainActivity extends AppCompatActivity {
                 ForgotPasswordActivity.class);
         startActivity(intent);
     }
+    public void OpenSignUp(View view){
+        Intent intent=new Intent(
+                MainActivity.this,
+                RegistrationActivity.class);
+        startActivity(intent);
+    }
 }
