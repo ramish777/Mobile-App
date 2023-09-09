@@ -19,4 +19,10 @@ public class RegistrationActivity extends AppCompatActivity {
                 MainActivity.class);
         startActivity(intent);
     }
+    public void email_verification(View view){
+        Intent intent=new Intent(
+                RegistrationActivity.this,
+                email_verification.class);
+        startActivity(intent);
+    }
 }
