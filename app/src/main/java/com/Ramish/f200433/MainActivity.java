@@ -26,4 +26,10 @@ public class MainActivity extends AppCompatActivity {
                 RegistrationActivity.class);
         startActivity(intent);
     }
+    public void dashboard_func(View view){
+        Intent intent=new Intent(
+                MainActivity.this,
+                dashboard.class);
+        startActivity(intent);
+    }
 }
